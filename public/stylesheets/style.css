@@ -1,0 +1,138 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  max-width: 1906px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+/*------ layout -----*/
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.home-header {
+  display: flex;
+  width: cover;
+} 
+
+.home-nav {
+  background-color: #4285f0;
+  color: white;
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Jacques Francois', serif;
+  border: 1px solid #A0A0A0;
+}
+
+.name-container {
+  margin: 10px 0;
+  margin-left: 300px;
+}
+
+.name-container h1{
+  margin: 0px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.home-list {
+  margin: 10px;
+  margin-right: 300px;
+}
+
+.home-bar {
+  display: inline;
+  font-size: 20px;
+  margin: 10px 20px;
+}
+
+.main-container {
+  background: url(https://www.nbn.org.il/wp-content/uploads/2014/01/computerprogramming_1629517_cropped.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(0, 0, 0, 0.5);
+  opacity: 0.8;
+  width: auto;
+  height: 850px;
+  display: block;
+  color: white;
+  border: 1px solid #A0A0A0;
+}
+
+.darkness-image {
+  width: 100%;
+  height: 100%;
+  background-color:rgb(0, 0, 0, 0.5);
+}
+
+.text-image {
+  text-align: center;
+  padding-top: 120px;
+}
+
+.text-image h1 {
+  margin: 0 0 80px;
+  font-size: 60px;
+}
+
+.text-image h2 {
+  margin: 0 100px;
+  font-size: 40px;
+}
+
+.info-container {
+  display: flex;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin: 80px 60px;
+}
+
+.card-container {
+  margin: auto 60px;
+  border-radius: 5px;
+}
+
+.card-image i{
+  font-size: 70px;
+  margin: 10px 0;
+}
+
+.card-container p {
+  font-size: 22px;
+}
+
+.project-container {
+  display: flex;
+}
+
+.project-card {
+  border: 1px solid blue;
+}
+
+.image-game {
+
+}
+
+.image-bandr {
+
+}
+
+.image-book {
+
+}
