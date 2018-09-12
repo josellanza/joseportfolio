@@ -119,20 +119,31 @@ a {
 
 .project-container {
   display: flex;
+  flex-flow: column;
 }
 
 .project-card {
   border: 1px solid blue;
+  margin: 40px;
 }
 
 .image-game {
-
+  background: url('../images/bandr22.png');
+  width: 950px;
+  height: 507px;
+  background-size: cover;
 }
 
 .image-bandr {
-
+  background: url('../images/bandr21.png');
+  width: 950px;
+  height: 507px;
+  background-size: cover;
 }
 
 .image-book {
-
+  background: url('../images/bookaddicted.png');
+  width: 950px;
+  height: 507px;
+  background-size: cover;
 }
