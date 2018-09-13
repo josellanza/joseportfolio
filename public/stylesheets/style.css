@@ -123,33 +123,30 @@ a {
 }
 
 .project-card {
-  border: 1px solid blue;
-  margin: 40px;
+  margin: 40px 80px;
+}
+
+.card-container-project img {
+  width: 950px;
+  height: 507px;
+  margin-right: 110px;
 }
 
 .image-game {
-  background: url('../images/bandr22.png');
-  width: 950px;
-  height: 507px;
   background-size: cover;
 }
 
 .image-bandr {
-  background: url('../images/bandr21.png');
-  width: 950px;
-  height: 507px;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .image-book {
-  background: url('../images/bookaddicted.png');
-  width: 950px;
-  height: 507px;
   background-size: cover;
+  margin-right: 175px;
 }
 
-.card-container-proyect {
+.card-container-project {
   display: flex;
 }
 
